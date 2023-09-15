@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "452254328584",
+    "project_id": "pizza-jungle-318312",
+    "storage_bucket": "pizza-jungle-318312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452254328584:android:e8e38d585807665c1b6ebd",
+        "android_client_info": {
+          "package_name": "com.kilimanjaro.pizzajungle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452254328584-hdmfto5hfe40t483ot06c1g21ip6gef3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6RvYCKz7-gzoCpVJnTGeJoBttEViy8xQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452254328584-hdmfto5hfe40t483ot06c1g21ip6gef3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "452254328584-aid9a7ialpdpb65ie93rnoqqcshisnjb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Pizza Jungle",
+    "slug": "pizza-jungle",
+    "orientation": "portrait",
+    "version": "1.0.44",
+    "originalFullName": "@kilimanjaro/pizza-jungle",
+    "scheme": "com.kilimanjaro.pizzajungle",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/logo-ios.png",
+      "buildNumber": "44",
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Pizza Jungle requires access to your camera to let you add your picture as your profile image",
+        "NSPhotoLibraryUsageDescription": "Pizza Jungle needs to access your camera roll in order to let you add your picture as your profile image. Your images will never be shared without your permission",
+        "NSPhotoLibraryAddUsageDescription": "Pizza Jungle needs to access your camera roll so that you can upload let you add your picture as your profile image. Your images will never be shared without your permission"
+      },
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kilimanjaro.pizzajungle"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kilimanjaro.pizzajungle",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 44,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "facebookScheme": "fb998862557553809",
+    "facebookAppId": "998862557553809",
+    "facebookDisplayName": "Pizza Jungle",
+    "facebookAutoLogAppEventsEnabled": false,
+    "facebookAdvertiserIDCollectionEnabled": false,
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "url": "https://u.expo.dev/ea0c3c18-6dcc-402a-b9e0-a74d630e8bbb"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea0c3c18-6dcc-402a-b9e0-a74d630e8bbb"
+      }
+    },
+    "plugins": [
+      "expo-dev-client"
+    ],
+    "owner": "kilimanjaro",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
